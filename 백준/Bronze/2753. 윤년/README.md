@@ -1,6 +1,9 @@
 # [Bronze V] 윤년 - 2753 
 
-[문제 링크](https://www.acmicpc.net/problem/2753) 
+
+<details>
+<summary>[문제 링크](https://www.acmicpc.net/problem/2753) </summary>
+<div markdown="1">
 
 ### 성능 요약
 
@@ -26,3 +29,10 @@
 
  <p>첫째 줄에 윤년이면 1, 아니면 0을 출력한다.</p>
 
+</div>
+</details>
+
+- 비교 연산자 순서 다시 확인하는 계기가 됨</br>
+(year % 400 and year & 4) == 0</br>
+year % 400 == 0 and year & 4 == 0</br>
+완전 다른 이야기
